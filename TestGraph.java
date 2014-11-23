@@ -26,5 +26,7 @@ class TestGraph {
 		g.add(new Node('D', parentsOfD, childrenOfD ));
 
 		g.printGraph();
+
+		g.DFS();
 	}
 }
